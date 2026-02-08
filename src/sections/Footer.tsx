@@ -15,7 +15,7 @@ const navLinks = [
 const socialLinks = [
   { icon: Github, href: 'https://github.com/Kini7686', label: 'GitHub' },
   { icon: Linkedin, href: 'https://linkedin.com/in/aditya-kini/', label: 'LinkedIn' },
-  { icon: ExternalLink, href: 'https://kini7686.github.io/Portfolio/', label: 'Portfolio' },
+  { icon: ExternalLink, href: 'https://aditya-kini.vercel.app/', label: 'Portfolio' },
   { icon: Mail, href: 'mailto:akini01@syr.edu', label: 'Email' },
 ];
 
