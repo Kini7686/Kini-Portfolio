@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Github, Linkedin, ExternalLink, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const navLinks = [
   { name: 'Home', href: '#home' },
