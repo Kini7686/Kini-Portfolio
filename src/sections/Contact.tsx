@@ -14,7 +14,7 @@ const contactInfo = [
 const socialLinks = [
   { icon: Github, label: 'GitHub', href: 'https://github.com/Kini7686', color: 'hover:bg-gray-800 hover:text-white' },
   { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/aditya-kini/', color: 'hover:bg-blue-600 hover:text-white' },
-  { icon: ExternalLink, label: 'Portfolio', href: 'https://kini7686.github.io/Portfolio/', color: 'hover:bg-amber-500 hover:text-white' },
+  { icon: ExternalLink, label: 'Portfolio', href: 'https://aditya-kini.vercel.app/', color: 'hover:bg-amber-500 hover:text-white' },
 ];
 
 export default function Contact() {
