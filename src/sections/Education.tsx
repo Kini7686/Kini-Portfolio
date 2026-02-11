@@ -45,18 +45,18 @@ const education: EducationItem[] = [
 ];
 
 // Certifications
-const certifications = [
-  {
-    name: 'AWS Certified Developer - Associate',
-    issuer: 'Amazon Web Services',
-    year: '2024',
-  },
-  {
-    name: 'AWS Academy Cloud Foundations',
-    issuer: 'AWS Academy (SLRTCE)',
-    year: '2022',
-  },
-];
+// const certifications = [
+//   {
+//     name: 'AWS Certified Developer - Associate',
+//     issuer: 'Amazon Web Services',
+//     year: '2024',
+//   },
+//   {
+//     name: 'AWS Academy Cloud Foundations',
+//     issuer: 'AWS Academy (SLRTCE)',
+//     year: '2022',
+//   },
+// ];
 
 export default function Education() {
   const [isVisible, setIsVisible] = useState(false);
@@ -211,7 +211,7 @@ export default function Education() {
         </div>
 
         {/* Certifications */}
-        <div
+        {/* <div
           className={`mt-16 transition-all duration-700 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
@@ -219,9 +219,9 @@ export default function Education() {
         >
           <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center" style={{ fontFamily: 'Montserrat, sans-serif' }}>
             Professional <span className="text-gradient-gold">Certifications</span>
-          </h3>
+          </h3> */}
 
-          <div className="grid md:grid-cols-2 gap-4">
+          {/* <div className="grid md:grid-cols-2 gap-4">
             {certifications.map((cert, index) => (
               <div
                 key={cert.name}
@@ -241,8 +241,8 @@ export default function Education() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </section>
   );
