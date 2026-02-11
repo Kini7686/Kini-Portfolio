@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Github, Linkedin, Mail, ArrowRight, ChevronDown, Download, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowRight, ChevronDown, Download} from 'lucide-react';
 import { downloadResume } from '@/lib/utils';
 
 // ============================================
@@ -8,7 +8,7 @@ import { downloadResume } from '@/lib/utils';
 const socialLinks = [
   { icon: Github, href: 'https://github.com/Kini7686', label: 'GitHub' },
   { icon: Linkedin, href: 'https://linkedin.com/in/aditya-kini/', label: 'LinkedIn' },
-  { icon: ExternalLink, href: 'https://aditya-kini.vercel.app/', label: 'Portfolio' },
+  // { icon: ExternalLink, href: 'https://aditya-kini.vercel.app/', label: 'Portfolio' },
   { icon: Mail, href: 'mailto:akini01@syr.edu', label: 'Email' },
 ];
 
