@@ -47,6 +47,18 @@ const experiences: ExperienceItem[] = [
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'JavaScript', 'HTML', 'CSS', 'Git'],
   },
   {
+    title: 'UI/UX Developer',
+    company: 'BasketHunt Pvt. Ltd.',
+    location: 'India',
+    period: 'Sep 2023 - Nov 2023',
+    description: [
+      'Collaborated with a team of 4 trainees to design and prototype the complete user interface for Android, iOS, and web applications for the School of Learning and iLearn website, ensuring a cohesive and seamless user experience across all platforms',
+      'Applied UI/UX design principles and industry best practices to enhance user flow, usability, and interaction, contributing to an improved user journey',
+      'Actively contributed to 2 live projects, focusing on user interface design and logo creation, delivering impactful designs that aligned with company branding and user needs',
+    ],
+    techStack: ['Figma', 'HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'Git'],
+  },
+  {
     title: 'Cyber Security Intern',
     company: 'Cyber Security (SLRTCE)',
     location: 'Mumbai, Maharashtra, India',
