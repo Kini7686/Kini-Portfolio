@@ -16,7 +16,7 @@ const skillCategories: SkillCategory[] = [
   {
     title: 'Programming Languages',
     icon: Code2,
-    skills: ['Python', 'C/C++', 'Java', 'JavaScript', 'PHP', 'SQL', 'NoSQL', 'HTML', 'CSS', 'SASS', 'Bash Script'],
+    skills: ['Python', 'C/C++', 'Java', 'JavaScript', 'PHP', 'SQL', 'NoSQL', 'HTML', 'CSS', 'SASS', 'Bash Script', 'Haskell'],
     color: 'from-amber-100 to-yellow-100',
   },
   {
