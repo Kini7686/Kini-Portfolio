@@ -9,6 +9,7 @@ import Experience from './sections/Experience';
 import Education from './sections/Education';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
